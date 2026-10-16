@@ -1,8 +1,9 @@
+import Navbar from "@/componnets/navbar"
 
 const Page = () => {
   return (
-    <section className="font-eatos-cursive text-6xl">
-      Fortune
+    <section className="min-h-screen w-full">
+      <Navbar />
     </section>
   )
 }
