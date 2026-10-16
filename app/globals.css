@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "eatos-regular";
+  src: url("/fonts/eatos_regular.ttf");
+}
+@font-face {
+  font-family: "eatos-cursive";
+  src: url("/fonts/eatos_cursive.ttf");
+}
+
+:root {
+  --biscuit-light: #FDFBD4;
+  --biscuit-dark: #C05800;
+  --chocolate-light: #713600;
+  --chocolate-dark: #38240D;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-eatos-regular: "eatos-regular", sans-serif;
+  --font-eatos-cursive: "eatos-cursive", cursive;
+}
+
+body {
+  background: var(--biscuit-light);
+  color: var(--chocolate-light);
+  font-family: "eatos-regular";
+}
+
