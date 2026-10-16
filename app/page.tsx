@@ -1,9 +1,9 @@
 
 const Page = () => {
   return (
-    <div className="font-eatos-cursive text-6xl">
+    <section className="font-eatos-cursive text-6xl">
       Fortune
-    </div>
+    </section>
   )
 }
 

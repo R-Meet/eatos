@@ -24,7 +24,11 @@
 
 body {
   background: var(--biscuit-light);
-  color: var(--chocolate-light);
+  color: var(--biscuit-dark);
   font-family: "eatos-regular";
 }
 
+::selection {
+  background-color: var(--biscuit-dark);
+  color: var(--biscuit-light);
+}
